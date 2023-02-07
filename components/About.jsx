@@ -10,9 +10,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
-            // I am not your normal developer
-          </p>
+          <p className="py-2 text-gray-600">I am not your normal developer</p>
           <p className="py-2 text-gray-600">
             When I began studying C and C++ for my college semester
             examinations, I became deeply involved in coding and development.
