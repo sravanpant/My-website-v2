@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import logoImg from "/public/assets/Logo.png";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
@@ -34,12 +35,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/Logo.png"
-            alt="/"
-            width="100"
-            height="30"
-          />
+          <Image src={logoImg} alt="/" width="100" height="30" />
         </Link>
         <div>
           <ul className="hidden md:flex">
